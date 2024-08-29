@@ -1,0 +1,30 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Índice general}{2}{chapter*.2}%
+\contentsline {chapter}{Índice de figuras}{4}{chapter*.3}%
+\contentsline {chapter}{Resumen. Palabras clave}{5}{chapter*.4}%
+\contentsline {paragraph}{Palabras clave:}{5}{paragraph*.5}%
+\contentsline {chapter}{Abstract. Keywords}{6}{chapter*.6}%
+\contentsline {paragraph}{Keywords:}{6}{paragraph*.7}%
+\contentsline {chapter}{\numberline {1}Introducción}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Objetivos}{9}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Métodos y materiales}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Generación de números aleatorios}{10}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Generadores de números pseudoaleatorios uniformes}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Generadores de números pseudoaleatorios no uniformes}{12}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Entorno de programación}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Modelo SIS}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Procesos estocásticos}{15}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Ecuación maestra}{16}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Ecuación de Fokker-Planck}{17}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Ecuación de Langevin}{18}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Métodos de generación de trayectorias}{19}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Algoritmo de Gillespie}{19}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Integración numérica de la ecuación de Langevin}{21}{subsection.3.5.2}%
+\contentsline {chapter}{\numberline {4}Resultados}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Series temporales}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Efecto de las condiciones iniciales}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Diagrama de fase}{26}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Desviación estandar}{27}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusiones}{29}{chapter.5}%
+\contentsline {chapter}{Bibliografía}{33}{chapter*.19}%
+\contentsline {chapter}{Anexo: Códigos de las distintas simulaciones}{35}{appendix*.20}%

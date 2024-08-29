@@ -1,0 +1,94 @@
+\chapter*{Códigos}
+\addcontentsline{toc}{chapter}{Anexo: Códigos de las distintas simulaciones}
+A continuación se muestran los códigos del algoritmo de Gillespie y de la resolución de la ecuación de Langevin.
+%\lstset{language=Python, breaklines=true, basicstyle=\footnotesize}
+
+\begin{lstlisting}[frame=single,caption=Algoritmo de Gillespie.]
+        def gillespie_SIS(infected, recovery_rate, infecting_rate, tmax):
+        time = np.array([0.])
+        inf = np.array([infected])
+        t = 0
+        while t < tmax and inf[-1] > 0:     
+            r1 = infecting_rate * infected * (individuos-infected) / individuos 
+            r2 = recovery_rate * infected   
+            r_total = r1 + r2
+            delta_t = np.random.exponential(scale=1/r_total)
+            prob = np.random.rand() 
+            if prob < r1/r_total: 
+                infected += 1
+            else: 
+                infected -= 1
+                if infected == 0:
+                    infected +=1
+            t += delta_t
+            time=np.append(time,t)
+            inf=np.append(inf,infected)
+        return time, inf
+\end{lstlisting}
+\newpage
+\begin{lstlisting}[frame=single,caption=Resolución de la ecuación de Langevin.]
+    import numpy as np
+    import matplotlib.pyplot as plot
+    
+    def langevin(deltat,x_0,individuos,infecting_rate,recovery_rate,tmax):
+        t=0.
+        time = np.array([0.])
+        x = np.array([x_0])
+        sqrtdeltat=np.sqrt(deltat)
+        while t < tmax:
+            f = x[-1] + deltat*(infecting_rate*x[-1]*(1-x[-1])-recovery_rate*x[-1])+sqrtdeltat*np.sqrt((infecting_rate*x[-1]*(1-x[-1])+recovery_rate*x[-1])/individuos)*np.random.normal()
+            if f<0:
+                f=1
+            x = np.append(x,f)
+            t += deltat
+            time = np.append(time,t)
+        return x, time
+\end{lstlisting}
+\newpage
+Con el siguiente código podremos obtener los puntos para la representación de los diagramas de fases con y sin barras de error para el número medio de infectados y el diagrama de fase
+para la desviación estándar. De la misma forma podremos obtenerlo utilizando la función langevin.
+\begin{lstlisting}[frame=single]
+    puntos = 100
+    for j in range (3):
+        medias=np.array([]) #Vector que contendrá las medias
+        inf_rates=np.array([])#Vector que contendrá los lambdas
+        desviacion=np.array([])
+        individuos = 10**(j+1)
+        infectados_inicio = individuos/10
+        tmax = 100
+        for i in range(puntos):
+            time, inf= gillespie_SIS(infectados_inicio, recovery_rate, 0.+0.125*i,tmax)
+            inf_est=np.array(inf[int(np.ceil(np.size(inf)/2)):np.size(inf):1])
+            medias=np.append(medias,[np.mean(inf_est)/individuos]) 
+            desviacion=np.append(desviacion,[np.std(inf_est)/individuos])
+            inf_rates=np.append(inf_rates,0.+0.125*i)
+            print(np.size(inf_rates))
+    plot.plot(inf_rates,medias,'-', label='N=%d'%(individuos))
+    plot.plot(inf_rates,desviacion,'-', label='N=%d'%(individuos)) 
+    plot.errorbar(inf_rates, medias, yerr=desviacion, label='N=%d'%(individuos), fmt = '-', ecolor='k', capsize=3, capthick=1)   
+\end{lstlisting}    
+\newpage
+Con el siguiente código podremos obtener los datos las trayectorias temporales para diferentes condiciones iniciales y las series temporales. 
+De igual manera que anteriormente, se pueden obtener utilizando la función gillespie$\_$SIS
+
+\begin{lstlisting}[frame=single]
+deltat=0.1
+x_0=0.1
+individuos=1000
+infecting_rate=2
+recovery_rate=1
+tmax=50
+trayectorias=5
+#Condiciones iniciales
+for j in range(trayectorias) :
+        x_0=0.1+0.2*j
+        x , time = langevin(deltat,x_0,individuos,infecting_rate,recovery_rate,tmax)
+        plot.plot(time,x,'-',label=f"$x_0= %.2f$"%(x_0))
+
+#Series temporales
+for j in range(trayectorias) :
+        infecting_rate=0.5+0.5*j
+        x , time = langevin(deltat,x_0,individuos,infecting_rate,recovery_rate,tmax)
+        plot.plot(time,x,'-',label=f"$ \lambda=%.2f$"%(infecting_rate))
+\end{lstlisting}  
+

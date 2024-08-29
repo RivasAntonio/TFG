@@ -1,0 +1,68 @@
+\chapter{Conclusiones}
+
+Con la realización de este trabajo hemos podido iniciarnos en la teoría de procesos estocásticos, teoría fundamental en gran cantidad de ramas
+de la física. Hemos podido comprobar como podemos encontrar y/o aplicar la física en otras ramas del conocimiento, como es el caso de este trabajo
+y la epidemiología. 
+
+El uso de modelos matemáticos nos ha permitido caracterizar el comportamiento de las epidemias, algo imprescindible para evitar 
+o minimizar los daños que estas causan en la sociedad. Para la resolución de las diferentes ecuaciones del modelo, como en la 
+mayoría de problemas actuales; es necesario el conocimiento de lenguajes de programación, ya que cuando consideramos situaciones no 
+ideales, la mayoría de problemas no tienen solución analítica. 
+
+Como punto de estudio principal, hemos estudiado los diagramas de fase bajo el modelo elegido. Obteniéndo así gran cantidad de información
+para distintos valores de los parámetros como lo son el tamaño de la población, las condiciones iniciales o las tasas de interacción. Esto
+nos permitirá tomar medidas con suficiente antelación para disminuir lo máximo posible los efectos de epidemias que 
+podamos modelar con las condiciones estudiadas.
+
+Para finalizar, haremos una pequeña discusión sobre los dos métodos utilizados para obtener las trayectorias. Los resultados obtenidos son muy similares a los esperados, por lo que ambos métodos
+reproducen bien lo esperado, pero es interesante hacer una pequeña discusión sobre las ventajas e inconvenientes de sendos métodos.
+
+Por una parte, con el algoritmo de Gillespie no realizamos ninguna aproximación, por lo que los resultados obtenidos serán 
+buenos para cualquier valor de los diferentes parámetros de nuestro sistema. Un inconveniente de este método es el tiempo de cálculo.
+Para poblaciones de órdenes mayores a los mil individuos, el tiempo de simulación aumenta considerablemente. Además, para altas 
+tasas de infección también aumenta el tiempo de simulación con el algoritmo de Gillespie.
+
+Por otra parte, en el caso de la ecuación de Langevin tenemos la restricción de que debemos tener una población grande para poder aplicar
+la aproximación. Sin embargo, para poblaciones mayores al centenar de individuos esta aproximación es asumible, por lo que para la gran mayoría 
+de casos de interés de nuestro modelo podemos aplicar esta aproximación. La principal ventaja de este método es el tiempo de simulación,
+el cual es prácticamente fijo, ya que nosotros elegimos el paso temporal para la resolución de la ecuación diferencial, por lo que al contrario
+del algoritmo de Gillespie, es independiente al tamaño de la población y de la tasa de infección.
+
+En general, como se ha comentado, ambos son buenos métodos, pero debido a que en el caso que nos concierne, el estudio de las epidemias, es mejor
+utilizar la ecuación de Langevin, ya que se reduce considerablemente el tiempo de simulación obteniendo aun así resultados igual de satisfactorios 
+que con el algoritmo de Gillespie.
+
+
+\newpage
+\chapter*{Conclusions}
+With the completion of this work, we have been able to delve into the theory of stochastic processes, a fundamental theory 
+in many branches of physics. We have verified how we can find and/or apply physics in other fields of knowledge, such as this 
+work and epidemiology.
+
+The use of mathematical models has allowed us to characterize the behavior of epidemics, something essential to 
+prevent or minimize the damages they cause in society. To solve the different equations of the model, as in most current 
+problems, knowledge of programming languages is necessary, because when we consider non-ideal situations, the majority of 
+problems do not have an analytical solution.
+
+As the main focus of study, we have examined phase diagrams, obtaining a wealth of information for 
+different parameter values such as population size, initial conditions, or interaction rates. This will enable us to take 
+actions to minimize the effects of epidemics that we can model with the studied conditions.
+
+Finally, we will have a brief discussion on the two methods used to obtain the trajectories. The results obtained are very 
+similar to the expected ones, so both methods accurately reproduce the expected outcomes. However, it is interesting to discuss 
+the advantages and disadvantages of each method.
+
+On one hand, with the Gillespie algorithm, we do not make any approximations, so the results obtained will be good for any 
+value of the different parameters in our system. One drawback of this method is the computational time. For populations larger 
+than a thousand individuals, the simulation time increases considerably. Additionally, for high infection rates, the simulation 
+time also increases with the Gillespie algorithm.
+
+On the other hand, in the case of the Langevin equation, we have the restriction that we need a large population to apply 
+the approximation. However, for populations larger than a hundred individuals, this approximation is reasonable, so for the 
+vast majority of cases of interest in our model, we can apply this approximation. The main advantage of this method is the 
+simulation time, which is practically fixed since we choose the time step for the resolution of the differential equation. 
+Thus, unlike the Gillespie algorithm, it is independent of the population size and infection rate.
+\newpage
+In general, as mentioned, both methods are good, but due to the specific nature of our study of epidemics, it is better 
+to use the Langevin equation. This significantly reduces the simulation time while still obtaining equally satisfactory 
+results as with the Gillespie algorithm.

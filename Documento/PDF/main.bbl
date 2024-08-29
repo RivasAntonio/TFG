@@ -1,0 +1,467 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{castaneda2020principales}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cc798cddf5ccc9264de6a91eb0ed3c06}{%
+           family={Castañeda\bibnamedelima Gullot},
+           familyi={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bdfca6f63c5c40c0ff1d229c553115e3}{%
+           family={Ramos\bibnamedelima Serpa},
+           familyi={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Gerardo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {1999, Editorial Ciencias Médicas}%
+      }
+      \strng{namehash}{f9c5fbb030c17f9bebd9b176bf996e00}
+      \strng{fullhash}{f9c5fbb030c17f9bebd9b176bf996e00}
+      \strng{bibnamehash}{f9c5fbb030c17f9bebd9b176bf996e00}
+      \strng{authorbibnamehash}{f9c5fbb030c17f9bebd9b176bf996e00}
+      \strng{authornamehash}{f9c5fbb030c17f9bebd9b176bf996e00}
+      \strng{authorfullhash}{f9c5fbb030c17f9bebd9b176bf996e00}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista cubana de Pediatrı́a}
+      \field{title}{Principales pandemias en la historia de la humanidad}
+      \field{volume}{92}
+      \field{year}{2020}
+    \endentry
+    \entry{Chowell}{article}{}
+      \name{author}{4}{}{%
+        {{hash=7110a6f6ee457d86a15dde8924429aac}{%
+           family={Chowell},
+           familyi={C\bibinitperiod},
+           given={Gerardo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2bd2bd1abdb6b77fc6c7d267180ce1dd}{%
+           family={Sattenspiel},
+           familyi={S\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=19e3dfdb824e6f2199e93e2e922e0363}{%
+           family={Bansal},
+           familyi={B\bibinitperiod},
+           given={Shweta},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a85d19d68ecf1ec7d4723fe1f21c20cf}{%
+           family={Viboud},
+           familyi={V\bibinitperiod},
+           given={Cécile},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fa89bd870b1114db97c581ad24040d22}
+      \strng{fullhash}{ed9e4de02a88e04fb08788e925d6da6a}
+      \strng{bibnamehash}{fa89bd870b1114db97c581ad24040d22}
+      \strng{authorbibnamehash}{fa89bd870b1114db97c581ad24040d22}
+      \strng{authornamehash}{fa89bd870b1114db97c581ad24040d22}
+      \strng{authorfullhash}{ed9e4de02a88e04fb08788e925d6da6a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of life reviews}
+      \field{title}{Mathematical models to characterize early epidemic growth: A review}
+      \field{volume}{18}
+      \field{year}{2016}
+      \field{pages}{66\bibrangedash 97}
+      \range{pages}{32}
+    \endentry
+    \entry{Gillespie}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1bf42ebd509a3dc7c57325afbcd733fa}{%
+           family={Gillespie},
+           familyi={G\bibinitperiod},
+           given={Daniel\bibnamedelima T},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \strng{fullhash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \strng{bibnamehash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \strng{authorbibnamehash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \strng{authornamehash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \strng{authorfullhash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annu. Rev. Phys. Chem.}
+      \field{title}{Stochastic simulation of chemical kinetics}
+      \field{volume}{58}
+      \field{year}{2007}
+      \field{pages}{35\bibrangedash 55}
+      \range{pages}{21}
+    \endentry
+    \entry{McKane}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d73b0b09dc8cfbef6e397ed0108a0c07}{%
+           family={McKane},
+           familyi={M\bibinitperiod},
+           given={Alan\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d73b0b09dc8cfbef6e397ed0108a0c07}
+      \strng{fullhash}{d73b0b09dc8cfbef6e397ed0108a0c07}
+      \strng{bibnamehash}{d73b0b09dc8cfbef6e397ed0108a0c07}
+      \strng{authorbibnamehash}{d73b0b09dc8cfbef6e397ed0108a0c07}
+      \strng{authornamehash}{d73b0b09dc8cfbef6e397ed0108a0c07}
+      \strng{authorfullhash}{d73b0b09dc8cfbef6e397ed0108a0c07}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stochastic Processes.}
+      \field{year}{2009}
+    \endentry
+    \entry{Toral}{book}{}
+      \name{author}{2}{}{%
+        {{hash=1db7a5c45fc9c8b6b03bbe41409a9f74}{%
+           family={Toral},
+           familyi={T\bibinitperiod},
+           given={Raúl},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c769419773403493f56850a76489fb93}{%
+           family={Colet},
+           familyi={C\bibinitperiod},
+           given={Pere},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{fullhash}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{bibnamehash}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{authorbibnamehash}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{authornamehash}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{authorfullhash}{d066ea1686c1f08748c681ead4ecc949}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stochastic numerical methods: an introduction for students and scientists}
+      \field{year}{2014}
+    \endentry
+    \entry{kroese2014monte}{article}{}
+      \name{author}{4}{}{%
+        {{hash=bdeae732a8a2bf629098c06d021dceb5}{%
+           family={Kroese},
+           familyi={K\bibinitperiod},
+           given={Dirk\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=bbf56722234a59a36b70147605487ae8}{%
+           family={Brereton},
+           familyi={B\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7fc8456199d7cba505b3b67f7fda2d03}{%
+           family={Taimre},
+           familyi={T\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fb86f6c50dd80dc9e65a02cf893d286d}{%
+           family={Botev},
+           familyi={B\bibinitperiod},
+           given={Zdravko\bibnamedelima I},
+           giveni={Z\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{47870ecb58088bc94d788b590c13fff1}
+      \strng{fullhash}{3ed1f3d24f37a283e534f44204442561}
+      \strng{bibnamehash}{47870ecb58088bc94d788b590c13fff1}
+      \strng{authorbibnamehash}{47870ecb58088bc94d788b590c13fff1}
+      \strng{authornamehash}{47870ecb58088bc94d788b590c13fff1}
+      \strng{authorfullhash}{3ed1f3d24f37a283e534f44204442561}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wiley Interdisciplinary Reviews: Computational Statistics}
+      \field{number}{6}
+      \field{title}{Why the Monte Carlo method is so important today}
+      \field{volume}{6}
+      \field{year}{2014}
+      \field{pages}{386\bibrangedash 392}
+      \range{pages}{7}
+    \endentry
+    \entry{castellano2009statistical}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1f995e83b34c1fad8cc8ec5fccfc9629}{%
+           family={Castellano},
+           familyi={C\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3f057d4175c110c6302b495f38eebcb6}{%
+           family={Fortunato},
+           familyi={F\bibinitperiod},
+           given={Santo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7144c0bfd01cbf1afe3f7fd7b9650abe}{%
+           family={Loreto},
+           familyi={L\bibinitperiod},
+           given={Vittorio},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{fullhash}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{bibnamehash}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{authorbibnamehash}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{authornamehash}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{authorfullhash}{3810a653f6ab29a3d9469b736436cd47}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reviews of modern physics}
+      \field{number}{2}
+      \field{title}{Statistical physics of social dynamics}
+      \field{volume}{81}
+      \field{year}{2009}
+      \field{pages}{591}
+      \range{pages}{1}
+    \endentry
+    \entry{azaele2016statistical}{article}{}
+      \name{author}{6}{}{%
+        {{hash=2046cbf94263d925910f74cbb44b23af}{%
+           family={Azaele},
+           familyi={A\bibinitperiod},
+           given={Sandro},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a4afc4895c6e3547b0aad2b3ea06257c}{%
+           family={Suweis},
+           familyi={S\bibinitperiod},
+           given={Samir},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3064f9d6b3abcc38b08984f4eda68610}{%
+           family={Grilli},
+           familyi={G\bibinitperiod},
+           given={Jacopo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=36c4ee56cd5cf2cf48b6c8867652815a}{%
+           family={Volkov},
+           familyi={V\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
+        {{hash=61d9c7759175179b5d74fa40f434d9fd}{%
+           family={Banavar},
+           familyi={B\bibinitperiod},
+           given={Jayanth\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=cc482a45ac9ec277907a2a62353259b3}{%
+           family={Maritan},
+           familyi={M\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{8fa927f774ade37d88a5ee0c277ace9c}
+      \strng{fullhash}{40a10dc368f373283dcde70a17b81e5c}
+      \strng{bibnamehash}{8fa927f774ade37d88a5ee0c277ace9c}
+      \strng{authorbibnamehash}{8fa927f774ade37d88a5ee0c277ace9c}
+      \strng{authornamehash}{8fa927f774ade37d88a5ee0c277ace9c}
+      \strng{authorfullhash}{40a10dc368f373283dcde70a17b81e5c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reviews of Modern Physics}
+      \field{number}{3}
+      \field{title}{Statistical mechanics of ecological systems: Neutral theory and beyond}
+      \field{volume}{88}
+      \field{year}{2016}
+      \field{pages}{035003}
+      \range{pages}{1}
+    \endentry
+    \entry{park1988random}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6c175ab5560d05d1405452ab1cf95175}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Stephen\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=763e480a89e1974b8cf27023900dfed3}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Keith\bibnamedelima W.},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{c6f4a85de91975816034ad8ee721c786}
+      \strng{fullhash}{c6f4a85de91975816034ad8ee721c786}
+      \strng{bibnamehash}{c6f4a85de91975816034ad8ee721c786}
+      \strng{authorbibnamehash}{c6f4a85de91975816034ad8ee721c786}
+      \strng{authornamehash}{c6f4a85de91975816034ad8ee721c786}
+      \strng{authorfullhash}{c6f4a85de91975816034ad8ee721c786}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{10}
+      \field{title}{Random number generators: good ones are hard to find}
+      \field{volume}{31}
+      \field{year}{1988}
+      \field{pages}{1192\bibrangedash 1201}
+      \range{pages}{10}
+    \endentry
+    \entry{github}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5624b49167f63e54e485bceba66f93bb}{%
+           family={Scarlett},
+           familyi={S\bibinitperiod},
+           given={Rizel},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5624b49167f63e54e485bceba66f93bb}
+      \strng{fullhash}{5624b49167f63e54e485bceba66f93bb}
+      \strng{bibnamehash}{5624b49167f63e54e485bceba66f93bb}
+      \strng{authorbibnamehash}{5624b49167f63e54e485bceba66f93bb}
+      \strng{authornamehash}{5624b49167f63e54e485bceba66f93bb}
+      \strng{authorfullhash}{5624b49167f63e54e485bceba66f93bb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why Python keeps growing, explained}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://github.blog/2023-03-02-why-python-keeps-growing-explained
+      \endverb
+      \verb{url}
+      \verb https://github.blog/2023-03-02-why-python-keeps-growing-explained
+      \endverb
+    \endentry
+    \entry{McKinney}{book}{}
+      \name{author}{1}{}{%
+        {{hash=27ca77940a5e8c07c5d89d0f3fb11d75}{%
+           family={McKinney},
+           familyi={M\bibinitperiod},
+           given={Wes},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {``'' O'Reilly Media, Inc."}%
+      }
+      \strng{namehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{fullhash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{bibnamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authorbibnamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authornamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authorfullhash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Python for data analysis: Data wrangling with Pandas, NumPy, and IPython}
+      \field{year}{2012}
+    \endentry
+    \entry{VanderPlas}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0fd9a0e34f1b2adda41357c948d14986}{%
+           family={VanderPlas},
+           familyi={V\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {'' O'Reilly Media, Inc."}%
+      }
+      \strng{namehash}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{fullhash}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{bibnamehash}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{authorbibnamehash}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{authornamehash}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{authorfullhash}{0fd9a0e34f1b2adda41357c948d14986}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Python data science handbook: Essential tools for working with data}
+      \field{year}{2016}
+    \endentry
+    \entry{Satorras}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c393ec202f2fc7875421592989acbc18}{%
+           family={Pastor-Satorras},
+           familyi={P\bibinithyphendelim S\bibinitperiod},
+           given={Romualdo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1f995e83b34c1fad8cc8ec5fccfc9629}{%
+           family={Castellano},
+           familyi={C\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ce1c658cc6c540c525926a9c08a8decc}{%
+           family={Van\bibnamedelima Mieghem},
+           familyi={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Piet},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8f9932ed1839be02bb53a62b258449a8}{%
+           family={Vespignani},
+           familyi={V\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{8bfd5356ec67c4e2846e21cde4195bd1}
+      \strng{fullhash}{7e9676d7659853e79f199eb4e2e692e7}
+      \strng{bibnamehash}{8bfd5356ec67c4e2846e21cde4195bd1}
+      \strng{authorbibnamehash}{8bfd5356ec67c4e2846e21cde4195bd1}
+      \strng{authornamehash}{8bfd5356ec67c4e2846e21cde4195bd1}
+      \strng{authorfullhash}{7e9676d7659853e79f199eb4e2e692e7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reviews of modern physics}
+      \field{number}{3}
+      \field{title}{Epidemic processes in complex networks}
+      \field{volume}{87}
+      \field{year}{2015}
+      \field{pages}{925}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

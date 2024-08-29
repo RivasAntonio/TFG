@@ -1,0 +1,6 @@
+El número de infectados inicial es N/10
+
+N=1000 hay 40 puntos
+N=100 hay 60 puntos
+
+Las que no tienen N=100 tienen todas 100 puntos

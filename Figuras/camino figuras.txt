@@ -1,0 +1,3 @@
+Le doy el nombre que quiera
+
+plot.savefig('C:/Users/anton/OneDrive/Desktop/Grado de Física/4º/Segundo cuatrimestre/Trabajo fin de grado/Documento/img/prueba.png')

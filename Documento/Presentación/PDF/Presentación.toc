@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Abstract}{3}{0}{1}
+\beamer@sectionintoc {2}{Introducción}{4}{0}{2}
+\beamer@sectionintoc {3}{Objetivos}{7}{0}{3}
+\beamer@sectionintoc {4}{Materiales y métodos}{11}{0}{4}
+\beamer@sectionintoc {5}{Resultados}{39}{0}{5}
+\beamer@sectionintoc {6}{Conclusions}{45}{0}{6}
